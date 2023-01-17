@@ -20,7 +20,7 @@ img {
 }
 
 .container {
-  border: 2px red solid;
+  
   display: flex;
   gap: 1.5%;
   max-height: 80vh;
@@ -29,7 +29,6 @@ img {
 
 .card {
   overflow: hidden;
-  border: 1px solid green;
   border-radius: 50px;
   cursor: pointer;
 }
