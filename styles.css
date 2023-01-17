@@ -6,6 +6,7 @@
 }
 
 body {
+  font-family: sans-serif;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -21,17 +22,34 @@ img {
 .container {
   border: 2px red solid;
   display: flex;
-  gap: 3%;
-  min-height: 70vh;
-  max-width: 70vw;
+  gap: 1.5%;
+  max-height: 80vh;
+  max-width: 90vw;
 }
 
 .card {
   overflow: hidden;
   border: 1px solid green;
-  border-radius: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card h3 {
+  display: none;
+  position: relative;
+  z-index: 1;
+  bottom: 60px;
+  margin: 0px 15px;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  padding: 0px 15px;
 }
 
 .active {
-  min-width: 50%;
+  min-width: 65%;
+}
+
+.active h3 {
+  display: block !important;
 }
